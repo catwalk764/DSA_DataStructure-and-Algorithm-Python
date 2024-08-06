@@ -2,7 +2,7 @@ O(1) - Constant Time
 
 Definition: An algorithm with O(1) complexity always takes the same amount of time to execute regardless of input size.
 
-Explanation: No matter how large the array is, accessing the first element always takes the same amount of time. 
+Explanation: No matter how large the array is, accessing the nth element always takes the same amount of time. 
 ---------------------------------------------------------------
 Why is it Constant Time?
 Array Indexing: Arrays are stored in contiguous memory locations. When you access an element by its index, the memory address of that element is calculated using a simple formula:
