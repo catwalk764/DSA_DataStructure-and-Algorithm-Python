@@ -24,9 +24,9 @@ Understanding data structures and algorithms is essential for programming. Hereâ
     algorithms (Dijkstra's, Bellman-Ford).
   
 - Algorithms:
-  1. Big O notation.
-  1.Sorting Algorithms: Bubble sort, selection sort, merge sort, quick sort, and understanding time complexity.
-  2.Searching Algorithms: Linear search, binary search.
-  3.Recursion: Understanding the concept and solving problems using recursion.
-  4.Dynamic Programming: Basic principles, examples like the Fibonacci sequence, coin change problem, and knapsack problem.
-  5.Greedy Algorithms: Coin change problem, activity selection.
+  1.Big O notation.
+  2.Sorting Algorithms: Bubble sort, selection sort, merge sort, quick sort, and understanding time complexity.
+  3.Searching Algorithms: Linear search, binary search.
+  4.Recursion: Understanding the concept and solving problems using recursion.
+  5.Dynamic Programming: Basic principles, examples like the Fibonacci sequence, coin change problem, and knapsack problem.
+  6.Greedy Algorithms: Coin change problem, activity selection.
