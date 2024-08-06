@@ -1,6 +1,6 @@
 # Data-Structure-and-Algorithm---Python
 This Repo is created to documenting different Data Structure and Algorithms using Python.
-**
+
 Table of Content:
 - Introduction.
 - Data Structures.
@@ -24,6 +24,7 @@ Understanding data structures and algorithms is essential for programming. Hereâ
     algorithms (Dijkstra's, Bellman-Ford).
   
 - Algorithms:
+  1. Big O notation.
   1.Sorting Algorithms: Bubble sort, selection sort, merge sort, quick sort, and understanding time complexity.
   2.Searching Algorithms: Linear search, binary search.
   3.Recursion: Understanding the concept and solving problems using recursion.
