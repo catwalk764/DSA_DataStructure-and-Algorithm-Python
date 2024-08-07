@@ -2,7 +2,7 @@ O(n log n) - Linearithmic Time:
 -------------------------------
 
 Definition: An algorithm has O(n log n) time complexity when the running time grows in proportion to 
-𝑛 multiplied by the logarithm of 𝑛. This complexity is commonly seen in more efficient sorting algorithms and some divide-and-conquer algorithms.
+𝑛 multiplied by the logarithmic of 𝑛. This complexity is commonly seen in more efficient sorting algorithms and some divide-and-conquer algorithms.
 
 Example: Merge Sort:
 Merge sort is a classic example of an O(n log n) algorithm. It is a divide-and-conquer algorithm that splits the input array into smaller subarrays, sorts them, and then merges them back together.
