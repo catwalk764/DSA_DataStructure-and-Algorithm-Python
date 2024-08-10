@@ -25,4 +25,26 @@ Sorting Algorithm:
     - Time Complexity: 
         Average Case O(n logn), worst case O(n^2).
 
+2. MergeSort:
+-------------
+
+    - Description:
+        MergeSort is a stable, divide-conquer algorithm that works by dividing the array into two halves, sorting each half, and then merging the sorted halves.
+
+    - Time Complexity:
+        O(n logn) in all best, worst, average case.
+
+
+Searching Algorithm:
+--------------------
+
+1. Binary Search:
+    
+    - Description:
+        Is a efficient algorithm for finding an item from a sorted list of item. It works by repeatedly dividing in half the portion of the list that could contain the item until you've narrowed down the possible locations to just one.
+
+    -Time Complexity:
+        O(log n)
+
+
 
