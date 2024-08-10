@@ -44,5 +44,5 @@ Searching Algorithm:
     - Description:
         Is a efficient algorithm for finding an item from a sorted list of item. It works by repeatedly dividing in half the portion of the list that could contain the item until you've narrowed down the possible locations to just one.
 
-    -Time Complexity:
+    -Time Complexity::
         O(log n)
