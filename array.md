@@ -25,6 +25,7 @@ Sorting Algorithm:
     - Time Complexity: 
         Average Case O(n logn), worst case O(n^2).
 
+
 2. MergeSort:
 -------------
 
@@ -45,6 +46,3 @@ Searching Algorithm:
 
     -Time Complexity:
         O(log n)
-
-
-
