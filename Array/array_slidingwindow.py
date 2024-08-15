@@ -14,5 +14,5 @@ def sliding_wind(arr, k):
     return max_sum
 
 arr = [1, 23, 56, 8, 12, 34, 1, 58, 7, 69]
-k=2
+k=4
 print("Maximum sum of subarray of size", k, "is", sliding_wind(arr, k))
