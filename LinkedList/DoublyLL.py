@@ -34,7 +34,6 @@ class Doublell:
                 n = n.pref
                 
 
-
     def insert_begin(self, data):
         new_node = Node(data)
         new_node.nref = self.head
