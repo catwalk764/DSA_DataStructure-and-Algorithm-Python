@@ -16,7 +16,7 @@ class BST:
 
 
 # reason we called sel.key is None is to valid the is it a empty tree or not. 
-# If we calling insert method is possible without creating an object (root=BST()).
+# If we calling insert method is not possible without creating an object (root=BST()).
 # If we have value in the Object root=BST(10), then if I call method of that class root.insert(20), then now tree is not empty.
 # we have to call the method from the object that why we said self.key = None which meand [root = BST(None)] this is will create an empty tree.
     
@@ -121,8 +121,17 @@ class BST:
             self.rchild = self.rchild.deletion(node.key)
         return self
 
+    def min(self):
+       current = self
+       while current.lchild:
+            current = current.lchild
+       print("Node with the smallest key is:", current.key)
 
-
+    def max(self):
+       current = self
+       while current.rchild:
+            current = current.rchild
+       print("Node with the smallest key is:", current.key)
 
 root = BST (None)
 List1 = [6, 5, 4, 25, 50, 60]
@@ -135,6 +144,8 @@ root.preorder_travers()
 print()
 #root.inorder_travers()
 #root.postorder_travers()
-root.deletion(6)
+#root.deletion(40)
 print("after preorder")
+root.min()
+root.max()
 root.preorder_travers()
