@@ -30,42 +30,29 @@ def merge_sort(arr):
     return result
 
 
-        
-
-
-
-
-
-
-
 def quick_sort(arr):
-    # Implementation here
-    pass
-
-def binary_search(arr, target):
-    # Implementation here
-    pass
-
-def reverse_array(arr):
-    return arr[::-1]
-
-def kadane_algorithm(arr):
-    # Implementation here
-    pass
-
-def remove_duplicates(arr):
-    return list(dict.fromkeys(arr))
-
-def rotate_array(arr, k):
-    n = len(arr)
-    k = k % n
-    return arr[n-k:] + arr[:n-k]
+    if len(arr) <= 1:
+        return arr
+    pivot = arr[len(arr) //2]
+    left = [x for x in arr if x < pivot]
+    mid = [x for x in arr if x == pivot]
+    right = [x for x in arr if x > pivot]
+    return quick_sort(left) + mid + quick_sort(right)
 
 def time_operation(func, *args):
     start_time = time.time()
     result = func(*args)
     end_time = time.time()
-    return result, end_time - start_time
+    elapsed_time = end_time - start_time
+
+    if elapsed_time >= 60:
+        mins, secs = divmod(elapsed_time, 60)
+        formatted_time = f"{int(mins)} minutes and {secs:.6f} seconds"
+    else:
+        formatted_time = f"{elapsed_time:.6f} seconds"
+    
+    return result, formatted_time
+
 
 def main():
     while True:
@@ -73,12 +60,7 @@ def main():
         print("1. Generate random array")
         print("2. Enter custom array")
         print("3. Sort array")
-        print("4. Search for element")
-        print("5. Reverse array")
-        print("6. Find maximum subarray sum")
-        print("7. Remove duplicates")
-        print("8. Rotate array")
-        print("9. Exit")
+        print("4. Exit")
         
         choice = input("Enter your choice (1-9): ")
         
@@ -107,7 +89,7 @@ def main():
         
         # Implement other menu options similarly
         
-        elif choice == '9':
+        elif choice == '4':
             print("Thank you for using the Array Algorithms Tool!")
             break
         
