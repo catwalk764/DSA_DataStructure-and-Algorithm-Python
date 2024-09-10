@@ -53,6 +53,24 @@ def mergesort(arr):
             j+=1
 #Adds any remaining elements from the left half to result if the right half has been completely traversed.
 #Adds any remaining elements from the right half to result if the left half has been completely traversed.
+    '''
+    1. What is extend?
+extend() is a list method in Python that takes another iterable (like a list, tuple, or set) and adds all its elements to the end of the list.
+It is different from append(), which adds the entire iterable as a single element to the list (i.e., if you append a list, the whole list will be added as a single item).
+Example:
+python
+Copy code
+list1 = [1, 2]
+list2 = [3, 4]
+
+# Using extend
+list1.extend(list2)
+print(list1)  # Output: [1, 2, 3, 4]
+
+# Using append
+list1.append(list2)
+print(list1)  # Output: [1, 2, [3, 4]]  # list2 is added as a single element
+    '''
     result.extend(left_half[i:]) 
     result.extend(right_half[j:])
 
