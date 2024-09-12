@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-def add(v):
+def add_matrix(v):
     global node_count
     if v in nodes:
         print(v, "is already present in the graph")
@@ -52,9 +52,9 @@ node_count = 0
 print("Before adding nodes")
 print(nodes)
 print(graph)
-add("A")
-add("B")
-add("D")
+add_matrix("A")
+add_matrix("B")
+add_matrix("D")
 add_edge("A", "E")
 add_edge_w("A", "B", 20)
 print("After adding nodes")
