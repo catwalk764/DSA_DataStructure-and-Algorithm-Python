@@ -1,8 +1,4 @@
 
-I should add more content about this project at the earliest.
-
-checking the conflict 
-=======
 Here’s a sample README.md file for your project that you can use in your public GitHub repository. It covers project description, setup instructions, usage, requirements, and includes information about .gitignore and contributing.
 
 
@@ -34,8 +30,8 @@ This project also includes automated testing using pytest and is integrated with
 
 1. **Clone the Repository**
 
-   
-   git clone https://github.com/yourusername/array_cli_tool.git
+   ```bash
+   git clone https://github.com/catwalk764/DSA_DataStructure-and-Algorithm-Python.git
    cd array_cli_tool
 Set Up a Virtual Environment (Recommended)
 
@@ -65,31 +61,29 @@ To run the tests, use the following command:
 
 
 pytest test_array_cli_tool.py
-CI/CD Integration
-The project is integrated with Jenkins to automatically run tests whenever changes are pushed to the GitHub repository. Ensure that you have set up Jenkins and configured the necessary webhooks as described in the project's setup documentation.
-
-Contributing
-Fork the Repository: Click on the "Fork" button on the top right of the repository page.
-
-Clone Your Fork:
-
-
-git clone https://github.com/yourusername/array_cli_tool.git
-Create a New Branch:
-
-
-git checkout -b feature/your-feature
-Make Changes and Commit:
-
-
-git add .
-git commit -m "Add your message here"
-Push Changes:
-
-
-git push origin feature/your-feature
-Create a Pull Request: Go to the GitHub repository and click on "New Pull Request."
 
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
+<<<<<<< HEAD
 bb317c57bff7b802e33146ec56a97b35077bd6eb
+=======
+
+.gitignore
+Include the following in your .gitignore file to avoid committing unnecessary files:
+
+
+# Python
+*.pyc
+__pycache__/
+
+# Virtual Environment
+venv/
+
+# Jenkins
+*.log
+
+# Pytest
+.cache/
+
+Contact: ctwk764@gmail.com
+>>>>>>> 1c768ee0cb3be8825f012f5f7da7b0fd64775b30
