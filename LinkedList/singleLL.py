@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
-class Node: # Node class
-    def __init__(self, data):
+class Node: # Node class This class is to create a empty Node
+    def __init__(self, data): # initialization Method
         self.data = data
         self.ref = None
 '''
@@ -18,9 +18,9 @@ class LinkedList: # LinkedList Class
             print("Linked List is empty")
         else:
             n = self.head # assigning self.head into variable 'n'.
-            while n is not None:
+            while n is not None: # condition to stop the loop
                 print(n.data, "--->", end=" ")
-                n = n.ref
+                n = n.ref # this is to move to the next Node.
 
 #LL1 = LinkedList()
 #LL1.check_LL()
